@@ -1,0 +1,60 @@
+.pb-padding {
+	padding: 0 30upx;
+}
+.pb-title {
+	font-size: 36upx;
+	font-weight: 600;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+}
+.c-main-body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.content-toast {
+		// animation: animated-toast 0.3s;
+		position: relative;
+		top: 0;
+		border-radius: 60upx;
+		padding: 15upx 40upx;
+		margin: auto;
+		background: rgba($color: #000000, $alpha: 0.45);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.title {
+			color: #ffffff;
+			font-size: 48upx;
+			text-align: center;
+		}
+	}
+}
+@keyframes animated-toast {
+	0% {
+		top: 100%;
+	}
+	25% {
+		top: 0;
+		transform: scale(1.0);
+	}
+	50% {
+		top: 0;
+		transform: scale(1.5);
+	}
+	75% {
+		transform: scale(1.0);
+	}
+	85% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1.0);
+	}
+}

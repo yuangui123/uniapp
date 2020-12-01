@@ -1,0 +1,18 @@
+.pb-padding {
+	padding: 0 30upx;
+}
+.pb-title {
+	font-size: 36upx;
+	font-weight: 600;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+}
+.g-main-body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+}

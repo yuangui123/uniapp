@@ -1,0 +1,344 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+		"^t-(.*)": "@/components/terjoy/t-$1.vue"
+	},
+	"pages": [
+		//首页
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		},
+		//测试文件
+		{
+			"path": "pages/test/payTest",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+
+		{
+			"path": "pages/login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		//忘记密码
+		{
+			"path": "pages/password",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		//加油订单1
+		{
+			"path": "pages/oilOrder/oilOrder",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		},
+		//加油订单详情
+		{
+			"path": "pages/oilOrder/orderDeatils",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		},
+
+		//当前班次统计
+		{
+			"path": "pages/shifts",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		},
+
+
+		//换班记录
+		{
+			"path": "pages/relief",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		},
+		//班次统计详情
+		{
+			"path": "pages/details",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		},
+		//主页详情页
+		{
+			"path": "pages/pagedetails",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/collection",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/opinion",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+
+
+		//换班详情
+		{
+			"path": "pages/grid",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+			}
+		},
+
+		//支付确认
+		{
+			"path": "pages/payCollection",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+
+		//支付结果
+		{
+			"path": "pages/payOver",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+
+		},
+		//基础设置
+		{
+			"path": "pages/baseSetting/setting/baseSetting",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		//油站信息
+		{
+			"path": "pages/baseSetting/setting/oilStationBaseInfo",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		//设置密码
+		{
+			"path": "pages/baseSetting/setting/settingPassword",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		//确认密码
+		{
+			"path": "pages/baseSetting/setting/settingPasswordAgain",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		//修改登录密码
+		{
+			"path": "pages/baseSetting/setting/updateLoginPassword",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		//修改支付密码
+		{
+			"path": "pages/baseSetting/setting/updatePayPassword",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		//常见问题
+		{
+			"path": "pages/baseSetting/question/questionList",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		//问题反馈记录
+		{
+			"path": "pages/baseSetting/feedBack/feedBackRecord",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true
+				
+			}
+		},
+		//问题反馈记录详情
+		{
+			"path": "pages/baseSetting/feedBack/feedBackDetail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		//反馈成功
+		{
+			"path": "pages/baseSetting/feedBack/feedBack",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+
+		},
+
+		{
+			"path": "pages/pocket/loose_change",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "零钱",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/pocket/addBankCard",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "添加银行卡"
+			}
+		}, {
+			"path": "pages/pocket/bankCard",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/pocket/accountVerification",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "账户验证"
+			}
+
+		}, {
+			"path": "pages/pocket/unbindBankCard",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+
+			}
+		}, {
+			"path": "pages/pocket/withdrawMoney",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "零钱提现"
+			}
+
+		}, {
+			"path": "pages/pocket/verificationCode",
+
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "验证码"
+
+			}
+
+		}, {
+			"path": "pages/pocket/tradingRecordDetail",
+
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "交易详情"
+
+			}
+
+		}, {
+			"path": "pages/pocket/tradingRecordList",
+
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "交易记录",
+				"enablePullDownRefresh": true
+
+			}
+
+		}, {
+			"path": "pages/pocket/withdrawFinish",
+
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+
+			}
+
+		},
+		{
+			"path": "pages/pocket/chooseBankCard",
+
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "请选择开户银行"
+
+			}
+
+		},
+		{
+			"path": "pages/pocket/bindBankCardSuccess",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+
+			}
+
+		}
+	],
+	"subPackages": [{
+
+	}],
+
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "旭油宝-油站版",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6"
+	}
+}

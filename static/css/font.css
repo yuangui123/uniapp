@@ -1,0 +1,12 @@
+@font-face {
+  font-style: normal;
+  font-family: 'PingFangSC';
+  font-weight: 400;
+  src: local('PingFangSC-Regular'), local('PingFang SC Regular'), local('.PingFangSC-Regular'), local('.PingFang SC Regular'), local('PingFangSC'), local('PingFang SC'), url('/static/fonts/SC-Regular.woff2') format('woff2'), url('/static/fonts/SC-Regular.woff') format('woff');
+}
+@font-face {
+  font-style: normal;
+  font-family: 'PingFangSC';
+  font-weight: 700;
+  src: local('PingFangSC-Semibold'), local('PingFang SC Semibold'), local('.PingFangSC-Semibold'), local('.PingFang SC Semibold'), url('/static/fonts/SC-Semibold.woff2') format('woff2'), url('/static/fonts/SC-Semibold.woff') format('woff');
+}

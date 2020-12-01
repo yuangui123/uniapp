@@ -1,0 +1,95 @@
+.pb-padding {
+	padding: 0 30upx;
+}
+.pb-title {
+	font-size: 36upx;
+	font-weight: 600;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+}
+.c-main-body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	background: #ffffff;
+	z-index: 1000;
+	.content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+		image {
+			height: 300upx;
+			width: 400upx;
+			margin-top: 300upx;
+			position: relative;
+			top: 100%
+		}
+		.success-title {
+			margin-top: 50upx;
+			font-size: 32upx;
+			color: #333333;
+			font-weight: 600;
+			position: relative;
+			top: 100%
+		}
+		.login-btn {
+			height: 90upx;
+			width: 350upx;
+			margin-top: 50upx;
+			position: relative;
+			top: 100%;
+			.btn {
+				height: 90upx;
+				width: 350upx;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background: #00CD79;
+				border-radius: 5upx;
+				font-size: 32upx;
+				color: #FFFFFF;
+				overflow: hidden;
+			}
+			.btn-active {
+				height: 90upx;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background: rgba($color: #00CD79, $alpha: 0.8);
+				border-radius: 5upx;
+				font-size: 32upx;
+				color: #FFFFFF;
+				width: 350upx;
+			}
+		}
+		.animated-1 {
+			animation-name: animated1;
+			animation-duration: 300ms;
+			animation-fill-mode: forwards;
+		}
+		.animated-2 {
+			animation-name: animated1;
+			animation-duration: 300ms;
+			animation-delay: 100ms;
+			animation-fill-mode: forwards;
+		}
+		.animated-3 {
+			animation-name: animated1;
+			animation-duration: 300ms;
+			animation-delay: 200ms;
+			animation-fill-mode: forwards;
+		}
+	}
+}
+@keyframes animated1
+{
+from {top: 100%;}
+to {top: 0;}
+}
+
